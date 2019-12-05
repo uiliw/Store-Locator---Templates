@@ -4,6 +4,9 @@
 	<div class="list-details">
 		<div class="list-content">
 			<div class="loc-name">{{name}}</div>
+			{{#if place}}
+				<div class="loc-addr"><strong>{{place}}</strong></div>
+			{{/if}}
 			<div class="loc-addr">{{address}}</div>
 			{{#if address2}}
 				<div class="loc-addr2">{{address2}}</div>
